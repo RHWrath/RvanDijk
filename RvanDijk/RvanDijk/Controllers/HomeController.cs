@@ -18,11 +18,23 @@ namespace RvanDijk.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Reservering()
+        {
+            return View();
+        }
+        public IActionResult Abbonement()
+        {
+            return View();
+        }
+        public IActionResult Events()
         {
             return View();
         }
 
+        public IActionResult Instructeurs()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
