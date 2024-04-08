@@ -18,12 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Abbonement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYmJvbmVtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Events.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Instructeurs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0cnVjdGV1cnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Home/Reservering.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZlcmluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Rik Heerholtz/Desktop/Fonty's/S2/Individueel project/RvanDijk/RvanDijk/RvanDijk/Views/Shared/Error.cshtml]
