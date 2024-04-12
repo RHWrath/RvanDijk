@@ -1,6 +1,6 @@
 ﻿namespace RvanDijk.Models
 {
-    public class Reservering
+    public class VMReservering
     {
         public int KlantID { get; set; }
         public string KlantNaam { get; set; }

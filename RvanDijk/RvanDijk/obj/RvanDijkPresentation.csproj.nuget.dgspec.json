@@ -4,6 +4,144 @@
     "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijkPresentation.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj",
+        "projectName": "RvanDijkLogic",
+        "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj",
+        "packagesPath": "C:\\Users\\Rik Heerholtz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rik Heerholtz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj",
+        "projectName": "RvanDijkDal",
+        "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj",
+        "packagesPath": "C:\\Users\\Rik Heerholtz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rik Heerholtz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj": {
+                "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijkPresentation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +169,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj": {
+                "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj"
+              },
+              "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj": {
+                "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijkdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|solutionrelative:rvandijkdal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\controllers\\abbonementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\controllers\\abbonementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijk.Logic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijk.Logic.csproj|solutionrelative:rvandijk.logic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\models\\vmabbonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\models\\vmabbonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\models\\abbonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\models\\abbonement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\models\\reservering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\models\\reservering.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\interfaces\\iinstructeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\interfaces\\iinstructeur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\views\\reservering\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\views\\reservering\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijkdal\\instructeurssms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|solutionrelative:rvandijkdal\\instructeurssms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijk.csproj|solutionrelative:rvandijk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\instructeurlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\instructeurlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,71 +38,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\Class1.cs",
-              "RelativeDocumentMoniker": "RvanDijkDal\\Class1.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\Class1.cs",
-              "RelativeToolTip": "RvanDijkDal\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "InstructeurSSMS.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\InstructeurSSMS.cs",
+              "RelativeDocumentMoniker": "RvanDijkDal\\InstructeurSSMS.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\InstructeurSSMS.cs",
+              "RelativeToolTip": "RvanDijkDal\\InstructeurSSMS.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwCAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T08:55:07.865Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Class1.cs",
-              "RelativeDocumentMoniker": "RvanDijk.Logic\\Class1.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Class1.cs",
-              "RelativeToolTip": "RvanDijk.Logic\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "InstructeurLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\InstructeurLogic.cs",
+              "RelativeDocumentMoniker": "RvanDijk.Logic\\InstructeurLogic.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\InstructeurLogic.cs",
+              "RelativeToolTip": "RvanDijk.Logic\\InstructeurLogic.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:54:31.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "RvanDijk\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "RvanDijk\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T07:47:37.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Index.cshtml",
-              "RelativeDocumentMoniker": "RvanDijk\\Views\\Reservering\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Index.cshtml",
-              "RelativeToolTip": "RvanDijk\\Views\\Reservering\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T07:44:27.236Z",
+              "WhenOpened": "2024-04-12T10:08:39.228Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Reservering.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Models\\Reservering.cs",
-              "RelativeDocumentMoniker": "RvanDijk\\Models\\Reservering.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Models\\Reservering.cs",
-              "RelativeToolTip": "RvanDijk\\Models\\Reservering.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Title": "Iinstructeur.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Interfaces\\Iinstructeur.cs",
+              "RelativeDocumentMoniker": "RvanDijk.Logic\\Interfaces\\Iinstructeur.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Interfaces\\Iinstructeur.cs",
+              "RelativeToolTip": "RvanDijk.Logic\\Interfaces\\Iinstructeur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:21:57.729Z",
+              "WhenOpened": "2024-04-12T09:48:58.751Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abbonement.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Models\\Abbonement.cs",
+              "RelativeDocumentMoniker": "RvanDijk.Logic\\Models\\Abbonement.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\Models\\Abbonement.cs",
+              "RelativeToolTip": "RvanDijk.Logic\\Models\\Abbonement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T12:02:18.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VMAbbonement.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Models\\VMAbbonement.cs",
+              "RelativeDocumentMoniker": "RvanDijk\\Models\\VMAbbonement.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Models\\VMAbbonement.cs",
+              "RelativeToolTip": "RvanDijk\\Models\\VMAbbonement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:59:53.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbbonementController.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\AbbonementController.cs",
+              "RelativeDocumentMoniker": "RvanDijk\\Controllers\\AbbonementController.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\AbbonementController.cs",
+              "RelativeToolTip": "RvanDijk\\Controllers\\AbbonementController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwB8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:57:54.7Z",
               "EditorCaption": ""
             },
             {
@@ -117,35 +129,9 @@
               "RelativeDocumentMoniker": "RvanDijk\\Controllers\\ReserveringController.cs",
               "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\ReserveringController.cs",
               "RelativeToolTip": "RvanDijk\\Controllers\\ReserveringController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAhAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwB4AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:19:21.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "RvanDijk\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "RvanDijk\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:18:15.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RvanDijk\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RvanDijk\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T07:18:06.646Z",
+              "WhenOpened": "2024-04-12T11:46:21.961Z",
               "EditorCaption": ""
             }
           ]

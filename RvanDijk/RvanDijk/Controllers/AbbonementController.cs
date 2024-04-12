@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
+using RvanDijkDal;
+using RvanDijkLogic.Models;
 
 namespace RvanDijk.Controllers
 {
@@ -17,23 +19,22 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            List<Abbonement> abbonementen = new List<Abbonement>();
-            SqlConnection Con = new SqlConnection(_configuration.GetConnectionString("ConnectionString")!);
-            SqlCommand cmd = new SqlCommand("SELECT ID, Naam, Max_Vergoeding, Prijs FROM Abbonement", Con);
-            Con.Open();
-            SqlDataReader Reader = cmd.ExecuteReader();
-            while (Reader.Read())
+            AbbonementSSMS NewDal = new AbbonementSSMS(_configuration.GetConnectionString("ConnectionString")!);
+
+            List<VMAbbonement> VMAbbonementen = new();
+
+            foreach (Abbonement abbonement in NewDal.GetAbbonementen())
             {
-                Abbonement abbonement = new Abbonement();
-                abbonement.Id = Reader.GetInt32(0);
-                abbonement.Name = Reader.GetString(1);
-                abbonement.Vergoeding = Reader.GetInt32(2);
-                abbonement.Prijs = Reader.GetDecimal(3);
-                abbonementen.Add(abbonement);
+                VMAbbonement VMabbonement = new();
+
+                VMabbonement.ID = abbonement.ID;
+                VMabbonement.Name = abbonement.Name;
+                VMabbonement.Vergoeding = abbonement.Vergoeding;
+                VMabbonement.Prijs = abbonement.Prijs;
+
+                VMAbbonementen.Add(VMabbonement);
             }
-            Reader.Close();
-            Con.Close();
-            return View(abbonementen);
+            return View(VMAbbonementen);
         }
 
         // GET: AbbonementController/Details/5

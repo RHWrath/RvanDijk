@@ -1,8 +1,8 @@
 ﻿namespace RvanDijk.Models
 {
-    public class Abbonement
+    public class VMAbbonement
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public int Vergoeding { get; set; }
         public decimal Prijs { get; set; }

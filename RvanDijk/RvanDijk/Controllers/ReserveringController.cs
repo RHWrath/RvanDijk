@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
+using RvanDijkDal;
+using RvanDijkLogic.Models;
 
 namespace RvanDijk.Controllers
 {
@@ -17,23 +19,23 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            List<Reservering> reserverings = new List<Reservering>();
-            SqlConnection Con = new SqlConnection(_configuration.GetConnectionString("ConnectionString")!);
-            SqlCommand cmd = new SqlCommand("SELECT Klant.ID, Klant.Naam, Abbonement.Naam, Klant.Vergoeding FROM Klant INNER JOIN Abbonement ON Klant.Abbonement_ID = Abbonement.ID", Con);
-            Con.Open();
-            SqlDataReader Reader = cmd.ExecuteReader();
-            while (Reader.Read())
+            ReserveringSSMS NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+
+            List<VMReservering> VMReserveringen = new();
+
+            foreach (Reservering reservering in NewDal.GetReserveringen())
             {
-                Reservering reservering = new Reservering();
-                reservering.KlantID = Reader.GetInt32(0);
-                reservering.KlantNaam = Reader.GetString(1);
-                reservering.AbbonementNaam = Reader.GetString(2);
-                reservering.KlantVergoeding = Reader.GetInt32(3);
-                reserverings.Add(reservering);
+                VMReservering VMreservering = new();
+
+                VMreservering.KlantID = reservering.KlantID;
+                VMreservering.KlantNaam = reservering.KlantNaam;
+                VMreservering.AbbonementNaam = reservering.AbbonementNaam;
+                VMreservering.KlantVergoeding = reservering.KlantVergoeding;
+
+                VMReserveringen.Add(VMreservering);
             }
-            Reader.Close();
-            Con.Close();
-            return View(reserverings);
+            return View(VMReserveringen);
+
         }
 
         // GET: ReserveringController/Details/5

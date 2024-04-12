@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
+using RvanDijkDal;
+using RvanDijkLogic.Interfaces;
+using RvanDijkLogic.Models;
 using System.Drawing;
 
 namespace RvanDijk.Controllers
@@ -20,22 +23,21 @@ namespace RvanDijk.Controllers
         
         public ActionResult Index()
         {
-            List<Activiteit> activiteiten = new List<Activiteit>();
-            SqlConnection Con = new SqlConnection(_configuration.GetConnectionString("ConnectionString")!);
-            SqlCommand cmd = new SqlCommand("SELECT ID, Naam, Prijs FROM Activiteit", Con);
-            Con.Open();
-            SqlDataReader Reader = cmd.ExecuteReader();
-            while (Reader.Read())
+            ActiviteitSSMS NewDal = new ActiviteitSSMS(_configuration.GetConnectionString("ConnectionString")!);
+
+            List<VMActiviteit> VMActiviteiten = new();
+
+            foreach (Activiteit activiteit in NewDal.GetActiviteit())
             {
-                Activiteit activiteit = new Activiteit();
-                activiteit.ID = Reader.GetInt32(0);
-                activiteit.Name = Reader.GetString(1);
-                activiteit.Prijs = Reader.GetDecimal(2);
-                activiteiten.Add(activiteit);
+                VMActiviteit VMactiviteit = new();
+
+                VMactiviteit.ID = VMactiviteit.ID;
+                VMactiviteit.Naam = VMactiviteit.Naam;
+                VMactiviteit.Prijs = VMactiviteit.Prijs;
+
+                VMActiviteiten.Add(VMactiviteit);
             }
-            Reader.Close();
-            Con.Close();
-            return View(activiteiten);
+            return View(VMActiviteiten);
         }
 
         // GET: ActiviteitController/Details/5

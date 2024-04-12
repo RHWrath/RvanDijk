@@ -254,3 +254,7 @@ C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\
 C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\obj\Debug\net7.0\RvanDijkPresentation.pdb
 C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\obj\Debug\net7.0\RvanDijkPresentation.genruntimeconfig.cache
 C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\obj\Debug\net7.0\ref\RvanDijkPresentation.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\bin\Debug\net7.0\RvanDijkDal.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\bin\Debug\net7.0\RvanDijkLogic.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\bin\Debug\net7.0\RvanDijkLogic.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk\bin\Debug\net7.0\RvanDijkDal.pdb

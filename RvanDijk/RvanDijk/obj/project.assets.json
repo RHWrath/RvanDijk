@@ -3618,6 +3618,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "RvanDijkDal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.2.0",
+          "RvanDijkLogic": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RvanDijkDal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RvanDijkDal.dll": {}
+        }
+      },
+      "RvanDijkLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RvanDijkLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RvanDijkLogic.dll": {}
+        }
       }
     }
   },
@@ -10623,12 +10647,24 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "RvanDijkDal/1.0.0": {
+      "type": "project",
+      "path": "../RvanDijkDal/RvanDijkDal.csproj",
+      "msbuildProject": "../RvanDijkDal/RvanDijkDal.csproj"
+    },
+    "RvanDijkLogic/1.0.0": {
+      "type": "project",
+      "path": "../RvanDijk.Logic/RvanDijkLogic.csproj",
+      "msbuildProject": "../RvanDijk.Logic/RvanDijkLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.Data.SqlClient >= 5.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.12"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.12",
+      "RvanDijkDal >= 1.0.0",
+      "RvanDijkLogic >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10662,7 +10698,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj": {
+              "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj"
+            },
+            "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj": {
+              "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\RvanDijkDal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
 using System.Drawing;
+using RvanDijkDal;
+using RvanDijkLogic.Models;
 
 namespace RvanDijk.Controllers
 {
@@ -19,22 +21,22 @@ namespace RvanDijk.Controllers
 
         public ActionResult Index()
         {
-            List<Instructeur> instructeurs = new List<Instructeur>();
-            SqlConnection Con = new SqlConnection(_configuration.GetConnectionString("ConnectionString")!);
-            SqlCommand cmd = new SqlCommand("SELECT ID, Naam, Prijs FROM Instructeur", Con);
-            Con.Open();
-            SqlDataReader Reader = cmd.ExecuteReader();
-            while (Reader.Read())
+            InstructeurSSMS NewDal = new InstructeurSSMS(_configuration.GetConnectionString("ConnectionString")!);
+
+            List<VMInstructeur> VMinstructeurs = new();
+
+            foreach (Instructeur instructeur in NewDal.GetInstructeurs())
             {
-                Instructeur instructeur = new Instructeur();
-                instructeur.ID = Reader.GetInt32(0);
-                instructeur.Name = Reader.GetString(1);
-                instructeur.Prijs = Reader.GetDecimal(2);
-                instructeurs.Add(instructeur);
+                VMInstructeur VMinstructeur = new();
+
+                VMinstructeur.ID = instructeur.ID;
+                VMinstructeur.Name = instructeur.Name;
+                VMinstructeur.Prijs = instructeur.Prijs;
+
+                VMinstructeurs.Add(VMinstructeur);
             }
-            Reader.Close();
-            Con.Close();
-            return View(instructeurs);
+
+            return View(VMinstructeurs);
         }
 
         // GET: InstructeurController/Details/5

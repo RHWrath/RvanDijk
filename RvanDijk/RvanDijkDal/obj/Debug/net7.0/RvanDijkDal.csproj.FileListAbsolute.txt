@@ -1,0 +1,16 @@
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\bin\Debug\net7.0\RvanDijkDal.deps.json
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\bin\Debug\net7.0\RvanDijkDal.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\bin\Debug\net7.0\RvanDijkDal.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\bin\Debug\net7.0\RvanDijkLogic.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\bin\Debug\net7.0\RvanDijkLogic.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.csproj.AssemblyReference.cache
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.AssemblyInfoInputs.cache
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.AssemblyInfo.cs
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.csproj.CoreCompileInputs.cache
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.sourcelink.json
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijk.526633B3.Up2Date
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\refint\RvanDijkDal.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\RvanDijkDal.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijkDal\obj\Debug\net7.0\ref\RvanDijkDal.dll

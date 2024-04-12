@@ -1,0 +1,12 @@
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\bin\Debug\net7.0\RvanDijkLogic.deps.json
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\bin\Debug\net7.0\RvanDijkLogic.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\bin\Debug\net7.0\RvanDijkLogic.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.AssemblyInfoInputs.cache
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.AssemblyInfo.cs
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.csproj.CoreCompileInputs.cache
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.sourcelink.json
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\refint\RvanDijkLogic.dll
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\RvanDijkLogic.pdb
+C:\Users\Rik Heerholtz\Desktop\Fonty's\S2\Individueel project\RvanDijk\RvanDijk\RvanDijk.Logic\obj\Debug\net7.0\ref\RvanDijkLogic.dll

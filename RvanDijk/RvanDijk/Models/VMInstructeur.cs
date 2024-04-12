@@ -1,6 +1,6 @@
 ﻿namespace RvanDijk.Models
 {
-    public class Instructeur
+    public class VMInstructeur
     {
         public int ID { get; set; }
         public string Name { get; set; }
