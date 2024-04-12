@@ -19,7 +19,7 @@ namespace RvanDijk.Controllers
         {
             List<Abbonement> abbonementen = new List<Abbonement>();
             SqlConnection Con = new SqlConnection(_configuration.GetConnectionString("ConnectionString")!);
-            SqlCommand cmd = new SqlCommand("SELECT ID, Naam, Vergoeding, Prijs FROM Abbonement", Con);
+            SqlCommand cmd = new SqlCommand("SELECT ID, Naam, Max_Vergoeding, Prijs FROM Abbonement", Con);
             Con.Open();
             SqlDataReader Reader = cmd.ExecuteReader();
             while (Reader.Read())

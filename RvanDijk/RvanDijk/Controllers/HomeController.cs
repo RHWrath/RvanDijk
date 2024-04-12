@@ -18,24 +18,9 @@ namespace RvanDijk.Controllers
 
         public IActionResult Index()
         {
-           
-
-            return View();
+           return View();
         }
-
-        public IActionResult Reservering()
-        {
-            return View();
-        }
-        public IActionResult Abbonement()
-        {
-            return View();
-        }
-        public IActionResult Events()
-        {
-            return View();
-        }
-
+        
         public IActionResult Instructeurs()
         {
             return View();

@@ -10638,9 +10638,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijk.csproj",
-      "projectName": "RvanDijk",
-      "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijk.csproj",
+      "projectUniqueName": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijkPresentation.csproj",
+      "projectName": "RvanDijkPresentation",
+      "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\RvanDijkPresentation.csproj",
       "packagesPath": "C:\\Users\\Rik Heerholtz\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\obj\\",
       "projectStyle": "PackageReference",

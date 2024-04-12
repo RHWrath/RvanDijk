@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RvanDijk.bundle.scp.css",
-      "PackagePath": "staticwebassets\\RvanDijk.bundle.scp.css"
+      "Id": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RvanDijkPresentation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RvanDijkPresentation.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\wwwroot\\IMG\\Picture1.png",
@@ -253,20 +253,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RvanDijk.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RvanDijkPresentation.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RvanDijk.props",
-      "PackagePath": "build\\RvanDijk.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RvanDijkPresentation.props",
+      "PackagePath": "build\\RvanDijkPresentation.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RvanDijk.props",
-      "PackagePath": "buildMultiTargeting\\RvanDijk.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RvanDijkPresentation.props",
+      "PackagePath": "buildMultiTargeting\\RvanDijkPresentation.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RvanDijk.props",
-      "PackagePath": "buildTransitive\\RvanDijk.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RvanDijkPresentation.props",
+      "PackagePath": "buildTransitive\\RvanDijkPresentation.props"
     }
   ],
   "ElementsToRemove": []

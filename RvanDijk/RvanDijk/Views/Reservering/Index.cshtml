@@ -1,0 +1,53 @@
+﻿@model IEnumerable<RvanDijk.Models.Reservering>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.KlantID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KlantNaam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AbbonementNaam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KlantVergoeding)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KlantID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KlantNaam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AbbonementNaam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KlantVergoeding)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
