@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
 using RvanDijkDal;
+using RvanDijkLogic.Interfaces;
+using RvanDijkLogic;
 using RvanDijkLogic.Models;
 
 namespace RvanDijk.Controllers
@@ -19,11 +21,12 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            ReserveringSSMS NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IReservering NewIDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            ReserveringLogic reserveringLogic = new ReserveringLogic(NewIDal);
 
             List<VMReservering> VMReserveringen = new();
 
-            foreach (Reservering reservering in NewDal.GetReserveringen())
+            foreach (Reservering reservering in reserveringLogic.GetReserveringen())
             {
                 VMReservering VMreservering = new();
 

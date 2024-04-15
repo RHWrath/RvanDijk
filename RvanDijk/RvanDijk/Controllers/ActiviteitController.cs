@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
 using RvanDijkDal;
+using RvanDijkLogic;
 using RvanDijkLogic.Interfaces;
 using RvanDijkLogic.Models;
 using System.Drawing;
@@ -23,17 +24,18 @@ namespace RvanDijk.Controllers
         
         public ActionResult Index()
         {
-            ActiviteitSSMS NewDal = new ActiviteitSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IActiviteit NewIDal = new ActiviteitSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            ActiviteitLogic activiteitLogic = new ActiviteitLogic(NewIDal);
 
             List<VMActiviteit> VMActiviteiten = new();
 
-            foreach (Activiteit activiteit in NewDal.GetActiviteit())
+            foreach (Activiteit activiteit in activiteitLogic.GetActiviteit())
             {
                 VMActiviteit VMactiviteit = new();
 
-                VMactiviteit.ID = VMactiviteit.ID;
-                VMactiviteit.Naam = VMactiviteit.Naam;
-                VMactiviteit.Prijs = VMactiviteit.Prijs;
+                VMactiviteit.ID = activiteit.ID;
+                VMactiviteit.Naam = activiteit.Naam;
+                VMactiviteit.Prijs = activiteit.Prijs;
 
                 VMActiviteiten.Add(VMactiviteit);
             }

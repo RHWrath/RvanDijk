@@ -5,6 +5,8 @@ using RvanDijk.Models;
 using System.Drawing;
 using RvanDijkDal;
 using RvanDijkLogic.Models;
+using RvanDijkLogic;
+using RvanDijkLogic.Interfaces;
 
 namespace RvanDijk.Controllers
 {
@@ -21,11 +23,12 @@ namespace RvanDijk.Controllers
 
         public ActionResult Index()
         {
-            InstructeurSSMS NewDal = new InstructeurSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            Iinstructeur NewIDal = new InstructeurSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            InstructeurLogic instructeurLogic = new InstructeurLogic(NewIDal);
 
             List<VMInstructeur> VMinstructeurs = new();
 
-            foreach (Instructeur instructeur in NewDal.GetInstructeurs())
+            foreach (Instructeur instructeur in instructeurLogic.GetInstructeurs())
             {
                 VMInstructeur VMinstructeur = new();
 

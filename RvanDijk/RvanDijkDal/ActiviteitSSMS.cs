@@ -23,7 +23,7 @@ namespace RvanDijkDal
             {
                 Activiteit activiteit = new Activiteit();
                 activiteit.ID = Reader.GetInt32(0);
-                activiteit.Name = Reader.GetString(1);
+                activiteit.Naam = Reader.GetString(1);
                 activiteit.Prijs = Reader.GetDecimal(2);
                 activiteiten.Add(activiteit);
             }

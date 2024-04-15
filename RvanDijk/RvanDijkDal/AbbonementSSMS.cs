@@ -27,7 +27,7 @@ namespace RvanDijkDal
             while (Reader.Read())
             {
                 Abbonement abbonement = new Abbonement();
-                abbonement.Id = Reader.GetInt32(0);
+                abbonement.ID = Reader.GetInt32(0);
                 abbonement.Name = Reader.GetString(1);
                 abbonement.Vergoeding = Reader.GetInt32(2);
                 abbonement.Prijs = Reader.GetDecimal(3);

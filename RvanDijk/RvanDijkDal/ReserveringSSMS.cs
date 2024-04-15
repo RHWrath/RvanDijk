@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RvanDijkDal
 {
-    public class ReserveringSSMS
+    public class ReserveringSSMS : IReservering
     {
         string _DBcon;
 

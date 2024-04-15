@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using RvanDijk.Models;
 using RvanDijkDal;
+using RvanDijkLogic.Interfaces;
+using RvanDijkLogic;
 using RvanDijkLogic.Models;
 
 namespace RvanDijk.Controllers
@@ -19,11 +21,12 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            AbbonementSSMS NewDal = new AbbonementSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IAbbonement NewIDal = new AbbonementSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            AbbonementLogic abbonementLogic = new AbbonementLogic(NewIDal);
 
             List<VMAbbonement> VMAbbonementen = new();
 
-            foreach (Abbonement abbonement in NewDal.GetAbbonementen())
+            foreach (Abbonement abbonement in abbonementLogic.GetAbbonementen())
             {
                 VMAbbonement VMabbonement = new();
 
