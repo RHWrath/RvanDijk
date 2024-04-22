@@ -6,6 +6,7 @@ using RvanDijkDal;
 using RvanDijkLogic.Interfaces;
 using RvanDijkLogic;
 using RvanDijkLogic.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace RvanDijk.Controllers
 {
@@ -30,10 +31,9 @@ namespace RvanDijk.Controllers
             {
                 VMReservering VMreservering = new();
 
-                VMreservering.KlantID = reservering.KlantID;
+                VMreservering.ReservationID = reservering.ReservationID;
                 VMreservering.KlantNaam = reservering.KlantNaam;
-                VMreservering.AbbonementNaam = reservering.AbbonementNaam;
-                VMreservering.KlantVergoeding = reservering.KlantVergoeding;
+                VMreservering.Tijd_Datum = reservering.Tijd_Datum;
 
                 VMReserveringen.Add(VMreservering);
             }
@@ -41,16 +41,26 @@ namespace RvanDijk.Controllers
 
         }
 
-        // GET: ReserveringController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+
+
+
 
         // GET: ReserveringController/Create
+        [HttpGet]
         public ActionResult Create()
         {
-            return View();
+            IKlant NewIDal = new KlantSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            KlantLogic klantLogic = new KlantLogic(NewIDal);
+            List<string> KlantLijst = new List<string>();
+
+            foreach (Klant klant in klantLogic.GetKlanten())
+            {
+                KlantLijst.Add(klant.Naam);
+            }
+
+            ViewBag.Klanten = new SelectList(KlantLijst);
+            VMReservering vMReservering = new VMReservering();
+            return View(vMReservering);
         }
 
         // POST: ReserveringController/Create
@@ -58,14 +68,8 @@ namespace RvanDijk.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            //klant id nodig
+            return View();
         }
 
         // GET: ReserveringController/Edit/5

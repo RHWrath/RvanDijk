@@ -21,22 +21,25 @@ namespace RvanDijkDal
         {
             List<Reservering> Reserveringen = new List<Reservering>();
             SqlConnection Con = new SqlConnection(_DBcon);
-            SqlCommand cmd = new SqlCommand("SELECT Klant.ID, Klant.Naam, Abbonement.Naam, Klant.Vergoeding FROM Klant" +
-                " INNER JOIN Abbonement ON Klant.Abbonement_ID = Abbonement.ID", Con);
+            SqlCommand cmd = new SqlCommand("SELECT R.ID as 'R.ID', K.Naam as 'K.Naam', R.Tijd_Datum as 'R.Tijd_Datum' FROM Reservation as R" +
+                " INNER JOIN Klant as K ON R.Klant_ID = K.ID", Con);
             Con.Open();
             SqlDataReader Reader = cmd.ExecuteReader();
             while (Reader.Read())
             {
                 Reservering reservering = new Reservering();
-                reservering.KlantID = Reader.GetInt32(0);
-                reservering.KlantNaam = Reader.GetString(1);
-                reservering.AbbonementNaam = Reader.GetString(2);
-                reservering.KlantVergoeding = Reader.GetInt32(3);
+                reservering.ReservationID = Convert.ToInt32(Reader["R.ID"]);
+                reservering.KlantNaam = Convert.ToString(Reader["K.Naam"])!;
+                DateTime Tijd_Datum = new DateTime();
+                Tijd_Datum = Convert.ToDateTime(Reader["R.Tijd_Datum"].ToString());
+                reservering.Tijd_Datum = Tijd_Datum;
+                //reservering.Tijd = DateTime.TryParse(Reader["R.Tijd"].ToString());
                 Reserveringen.Add(reservering);
             }
             Reader.Close();
             Con.Close();
             return Reserveringen;
         }
+        
     }
 }
