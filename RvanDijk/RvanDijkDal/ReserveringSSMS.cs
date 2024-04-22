@@ -21,7 +21,8 @@ namespace RvanDijkDal
         {
             List<Reservering> Reserveringen = new List<Reservering>();
             SqlConnection Con = new SqlConnection(_DBcon);
-            SqlCommand cmd = new SqlCommand("SELECT Klant.ID, Klant.Naam, Abbonement.Naam, Klant.Vergoeding FROM Klant INNER JOIN Abbonement ON Klant.Abbonement_ID = Abbonement.ID", Con);
+            SqlCommand cmd = new SqlCommand("SELECT Klant.ID, Klant.Naam, Abbonement.Naam, Klant.Vergoeding FROM Klant" +
+                " INNER JOIN Abbonement ON Klant.Abbonement_ID = Abbonement.ID", Con);
             Con.Open();
             SqlDataReader Reader = cmd.ExecuteReader();
             while (Reader.Read())

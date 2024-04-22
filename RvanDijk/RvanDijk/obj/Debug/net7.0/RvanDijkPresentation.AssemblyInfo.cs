@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RvanDijkPresentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ba1eaa8cce8195cc2f3d4fc0d8d51a19ed6e871")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c87511a1a22c07fd0fabff288e33ba8e60dcc7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("RvanDijkPresentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RvanDijkPresentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
