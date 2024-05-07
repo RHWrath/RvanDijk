@@ -21,5 +21,18 @@ namespace RvanDijkLogic
         {
             return ReserveringDB.GetReserveringen();
         }
+
+        
+
+        public void CreateReservering(string klantNaam,DateTime dateTime)
+        {
+            ReserveringDB.CreateReservering(klantNaam, dateTime);
+        }
+
+        public void DeleteReservering(int reserveringID)
+        {
+            ReserveringDB.DeleteReservering(reserveringID);
+        }
+
     }
 }

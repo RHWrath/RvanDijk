@@ -4,6 +4,7 @@ using RvanDijkLogic.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,6 +41,33 @@ namespace RvanDijkDal
             Con.Close();
             return Reserveringen;
         }
+
         
+
+        public void CreateReservering(string klantNaam, DateTime dateTime)
+        {            
+            SqlConnection Con = new SqlConnection(_DBcon);
+            Con.Open();
+            SqlCommand cmd = new SqlCommand("INSERT Reservation (Klant_ID, Tijd_Datum) VALUES ((SELECT ID FROM Klant WHERE Naam = @klantNaam), @dateTime)", Con);
+            cmd.Parameters.AddWithValue("klantNaam", klantNaam);
+            cmd.Parameters.AddWithValue("dateTime", dateTime);
+            cmd.ExecuteNonQuery();
+
+            cmd = new SqlCommand("UPDATE Klant SET Vergoeding = (SELECT Vergoeding From Klant WHERE Naam = @klantNaam) - 1 WHERE Naam = @klantNaam;", Con);
+            cmd.Parameters.AddWithValue("klantNaam", klantNaam);
+            cmd.ExecuteNonQuery();
+            Con.Close();
+        }
+
+        public void DeleteReservering(int reserveringID)
+        {
+            SqlConnection Con =new SqlConnection(_DBcon);
+            Con.Open();
+            SqlCommand cmd = new SqlCommand("DELETE FROM Reservation WHERE ID = @reserveringID;", Con);
+            cmd.Parameters.AddWithValue("reserveringID", reserveringID);
+            cmd.ExecuteNonQuery();
+            Con.Close();
+        }
+
     }
 }

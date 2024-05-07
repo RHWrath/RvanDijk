@@ -10,5 +10,7 @@ namespace RvanDijkLogic.Interfaces
     public interface IReservering
     {
         IEnumerable<Reservering> GetReserveringen();
+        void CreateReservering(string klantNaam, DateTime dateTime);
+        void DeleteReservering(int reserveringID);
     }
 }

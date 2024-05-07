@@ -31,7 +31,7 @@ namespace RvanDijk.Controllers
             {
                 VMReservering VMreservering = new();
 
-                VMreservering.ReservationID = reservering.ReservationID;
+                VMreservering.ReserveringID = reservering.ReservationID;
                 VMreservering.KlantNaam = reservering.KlantNaam;
                 VMreservering.Tijd_Datum = reservering.Tijd_Datum;
 
@@ -66,35 +66,17 @@ namespace RvanDijk.Controllers
         // POST: ReserveringController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(VMReservering reservering)
         {
-            //klant id nodig
-            return View();
+            IReservering NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            ReserveringLogic reserveringLogic = new ReserveringLogic(NewDal);
+            reserveringLogic.CreateReservering(reservering.KlantNaam, reservering.Tijd_Datum);
+            return RedirectToAction("Index");
         }
-
-        // GET: ReserveringController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ReserveringController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        
 
         // GET: ReserveringController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete()
         {
             return View();
         }
@@ -102,16 +84,12 @@ namespace RvanDijk.Controllers
         // POST: ReserveringController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+        public ActionResult Delete(int id)
+        {            
+                IReservering NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+                ReserveringLogic reserveringLogic = new ReserveringLogic(NewDal);
+                reserveringLogic.DeleteReservering(id);
+                return RedirectToAction("Index");           
         }
     }
 }
