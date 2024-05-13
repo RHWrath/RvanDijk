@@ -34,5 +34,10 @@ namespace RvanDijkLogic
             ReserveringDB.DeleteReservering(reserveringID);
         }
 
+        public int ReserveringCount()
+        {
+            return ReserveringDB.ReserveringCounter();
+        }
+
     }
 }

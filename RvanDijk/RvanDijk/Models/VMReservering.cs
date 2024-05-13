@@ -5,5 +5,7 @@
         public int ReserveringID { get; set; }
         public string KlantNaam { get; set; }
         public DateTime Tijd_Datum { get; set; }
+
+        public int ReserveringCount { get; set; }
     }
 }

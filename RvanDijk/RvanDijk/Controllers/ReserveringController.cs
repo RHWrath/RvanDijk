@@ -27,6 +27,7 @@ namespace RvanDijk.Controllers
 
             List<VMReservering> VMReserveringen = new();
 
+            
             foreach (Reservering reservering in reserveringLogic.GetReserveringen())
             {
                 VMReservering VMreservering = new();
@@ -34,6 +35,7 @@ namespace RvanDijk.Controllers
                 VMreservering.ReserveringID = reservering.ReservationID;
                 VMreservering.KlantNaam = reservering.KlantNaam;
                 VMreservering.Tijd_Datum = reservering.Tijd_Datum;
+                
 
                 VMReserveringen.Add(VMreservering);
             }
@@ -90,6 +92,17 @@ namespace RvanDijk.Controllers
                 ReserveringLogic reserveringLogic = new ReserveringLogic(NewDal);
                 reserveringLogic.DeleteReservering(id);
                 return RedirectToAction("Index");           
+        }
+
+        public ActionResult CounterPage()
+        {
+            IReservering NewIDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            ReserveringLogic reserveringLogic = new ReserveringLogic(NewIDal);
+            VMReservering VMreservering = new();
+
+            VMreservering.ReserveringCount = reserveringLogic.ReserveringCount();
+
+            return View(VMreservering);
         }
     }
 }

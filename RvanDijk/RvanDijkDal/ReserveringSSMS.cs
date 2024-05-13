@@ -34,7 +34,6 @@ namespace RvanDijkDal
                 DateTime Tijd_Datum = new DateTime();
                 Tijd_Datum = Convert.ToDateTime(Reader["R.Tijd_Datum"].ToString());
                 reservering.Tijd_Datum = Tijd_Datum;
-                //reservering.Tijd = DateTime.TryParse(Reader["R.Tijd"].ToString());
                 Reserveringen.Add(reservering);
             }
             Reader.Close();
@@ -67,6 +66,31 @@ namespace RvanDijkDal
             cmd.Parameters.AddWithValue("reserveringID", reserveringID);
             cmd.ExecuteNonQuery();
             Con.Close();
+        }
+
+        public int ReserveringCounter()
+        {
+            int Count = 0;
+            SqlConnection Con = new SqlConnection(_DBcon);
+            DateTime dateTimeNow = DateTime.Now;
+            string formatDateTime = dateTimeNow.ToString("yyyy-MM-dd");
+
+            
+
+            SqlCommand cmd = new SqlCommand("SELECT DISTINCT COUNT(R.ID) AS 'R.ID' FROM Reservation AS R WHERE CONVERT(Date, R.Tijd_Datum) = @DatumParameter");
+            cmd.Parameters.AddWithValue("DatumParameter", formatDateTime);
+            cmd.Connection = Con;
+            Con.Open();
+            SqlDataReader Reader = cmd.ExecuteReader();
+            while (Reader.Read())
+            {                
+                    Count = Convert.ToInt32(Reader["R.ID"]);                
+            }
+
+            Con.Close();
+            return Count;
+            
+
         }
 
     }

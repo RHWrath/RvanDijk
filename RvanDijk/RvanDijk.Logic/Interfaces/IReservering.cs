@@ -12,5 +12,7 @@ namespace RvanDijkLogic.Interfaces
         IEnumerable<Reservering> GetReserveringen();
         void CreateReservering(string klantNaam, DateTime dateTime);
         void DeleteReservering(int reserveringID);
+
+        int ReserveringCounter();
     }
 }

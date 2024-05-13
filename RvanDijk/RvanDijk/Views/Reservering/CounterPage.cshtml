@@ -1,0 +1,14 @@
+﻿@model RvanDijk.Models.VMReservering
+
+@{
+    ViewData["Title"] = "CounterPage";
+}
+
+
+<p>
+    Aantal reservatie's vandaag: 
+    @Html.DisplayFor(model => model.ReserveringCount)
+</p>
+
+
+<a asp-action="Index">Terug naar index</a>
