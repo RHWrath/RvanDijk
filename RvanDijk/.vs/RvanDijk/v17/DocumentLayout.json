@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|solutionrelative:rvandijkdal\\reserveringssms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk-unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk-unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|solutionrelative:rvandijk-unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "RvanDijk.Logic\\ReserveringLogic.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T09:30:03.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T09:30:03.053Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Rvandijk-UnitTest\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:42:47.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:42:47.353Z"
             }
           ]
         }
