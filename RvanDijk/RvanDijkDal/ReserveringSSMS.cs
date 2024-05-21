@@ -68,7 +68,7 @@ namespace RvanDijkDal
             Con.Close();
         }
 
-        public int ReserveringCounter()
+        public int ReserveringCounter() 
         {
             int Count = 0;
             SqlConnection Con = new SqlConnection(_DBcon);

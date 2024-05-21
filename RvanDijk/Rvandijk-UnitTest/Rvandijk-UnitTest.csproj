@@ -18,11 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+    <ProjectReference Include="..\RvanDijk.Logic\RvanDijkLogic.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="LogicTests\" />
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
 </Project>

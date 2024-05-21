@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rvandijk-UnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44b05c13ff8aabfbd43d80eb3f812789763a332c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b6eb69ee76118efa4c429d0748a69f1b0d692f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rvandijk-UnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rvandijk-UnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

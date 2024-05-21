@@ -594,6 +594,16 @@
             "related": ".xml"
           }
         }
+      },
+      "RvanDijkLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/RvanDijkLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RvanDijkLogic.dll": {}
+        }
       }
     }
   },
@@ -2286,6 +2296,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "RvanDijkLogic/1.0.0": {
+      "type": "project",
+      "path": "../RvanDijk.Logic/RvanDijkLogic.csproj",
+      "msbuildProject": "../RvanDijk.Logic/RvanDijkLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2293,6 +2308,7 @@
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
+      "RvanDijkLogic >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -2327,7 +2343,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj": {
+              "projectPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty's\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\RvanDijkLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
