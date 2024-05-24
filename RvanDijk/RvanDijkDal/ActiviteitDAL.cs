@@ -4,11 +4,11 @@ using RvanDijkLogic.Models;
 
 namespace RvanDijkDal
 {
-    public class ActiviteitSSMS : IActiviteit
+    public class ActiviteitDAL : IActiviteitDAL
     {
         string _DBcon = "";
 
-        public ActiviteitSSMS(string DBcon)
+        public ActiviteitDAL(string DBcon)
         {
             _DBcon = DBcon;
         }

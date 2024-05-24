@@ -10,8 +10,8 @@ namespace RvanDijkLogic
 {
     public class AbbonementLogic
     {
-        IAbbonement AbbonementDB { get;}
-        public AbbonementLogic(IAbbonement abbonement)
+        IAbbonementDAL AbbonementDB { get;}
+        public AbbonementLogic(IAbbonementDAL abbonement)
         {
             this.AbbonementDB = abbonement;
         }

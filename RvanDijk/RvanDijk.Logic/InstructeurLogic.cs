@@ -10,9 +10,9 @@ namespace RvanDijkLogic
 {
     public class InstructeurLogic
     {
-        Iinstructeur InstructeurDB { get;  }
+        IinstructeurDAL InstructeurDB { get;  }
 
-        public InstructeurLogic(Iinstructeur instructeur)
+        public InstructeurLogic(IinstructeurDAL instructeur)
         {
             this.InstructeurDB = instructeur;
         }

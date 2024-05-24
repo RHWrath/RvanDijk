@@ -10,9 +10,9 @@ namespace RvanDijkLogic
 {
     public class ActiviteitLogic
     {
-        IActiviteit ActiviteitGB { get; }
+        IActiviteitDAL ActiviteitGB { get; }
 
-        public ActiviteitLogic(IActiviteit activiteit)
+        public ActiviteitLogic(IActiviteitDAL activiteit)
         {
             this.ActiviteitGB = activiteit;
         }

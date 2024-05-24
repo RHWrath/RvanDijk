@@ -21,7 +21,7 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            IAbbonement NewIDal = new AbbonementSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IAbbonementDAL NewIDal = new AbbonementDAL(_configuration.GetConnectionString("ConnectionString")!);
             AbbonementLogic abbonementLogic = new AbbonementLogic(NewIDal);
 
             List<VMAbbonement> VMAbbonementen = new();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RvanDijkLogic.Interfaces
 {
-    public interface IKlant
+    public interface IKlantDAL
     {
         IEnumerable<Klant> GetKlanten();
     }

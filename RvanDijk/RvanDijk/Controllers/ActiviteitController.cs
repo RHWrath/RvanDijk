@@ -24,7 +24,7 @@ namespace RvanDijk.Controllers
         
         public ActionResult Index()
         {
-            IActiviteit NewIDal = new ActiviteitSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IActiviteitDAL NewIDal = new ActiviteitDAL(_configuration.GetConnectionString("ConnectionString")!);
             ActiviteitLogic activiteitLogic = new ActiviteitLogic(NewIDal);
 
             List<VMActiviteit> VMActiviteiten = new();

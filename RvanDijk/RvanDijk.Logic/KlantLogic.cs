@@ -10,9 +10,9 @@ namespace RvanDijkLogic
 {
     public class KlantLogic
     {
-        IKlant KlantDB { get; }
+        IKlantDAL KlantDB { get; }
 
-        public KlantLogic(IKlant klant)
+        public KlantLogic(IKlantDAL klant)
         {
             this.KlantDB = klant;
         }

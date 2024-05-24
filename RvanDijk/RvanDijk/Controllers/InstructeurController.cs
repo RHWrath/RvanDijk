@@ -23,7 +23,7 @@ namespace RvanDijk.Controllers
 
         public ActionResult Index()
         {
-            Iinstructeur NewIDal = new InstructeurSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IinstructeurDAL NewIDal = new InstructeurDAL(_configuration.GetConnectionString("ConnectionString")!);
             InstructeurLogic instructeurLogic = new InstructeurLogic(NewIDal);
 
             List<VMInstructeur> VMinstructeurs = new();

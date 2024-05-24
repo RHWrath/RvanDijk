@@ -10,11 +10,12 @@ using System.Threading.Tasks;
 
 namespace RvanDijkDal
 {
-    public class ReserveringSSMS : IReservering
+    public class 
+        ReserveringDAL : IReserveringDAL
     {
         string _DBcon;
 
-        public ReserveringSSMS(string DBcon)
+        public ReserveringDAL(string DBcon)
         {
             _DBcon = DBcon;
         }

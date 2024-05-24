@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace RvanDijkDal
 {
-    public class KlantSSMS : IKlant
+    public class KlantDAL : IKlantDAL
     {
         string _DBcon;
 
-        public KlantSSMS(string DBcon)
+        public KlantDAL(string DBcon)
         {
             _DBcon = DBcon;
         }

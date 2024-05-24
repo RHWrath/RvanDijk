@@ -4,11 +4,11 @@ using RvanDijkLogic.Models;
 
 namespace RvanDijkDal
 {
-    public class InstructeurSSMS:Iinstructeur
+    public class InstructeurDAL:IinstructeurDAL
     {
         string _DBcon;
 
-        public InstructeurSSMS(string DBcon)
+        public InstructeurDAL(string DBcon)
         {
             _DBcon = DBcon;
         }

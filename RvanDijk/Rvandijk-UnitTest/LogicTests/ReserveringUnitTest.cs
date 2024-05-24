@@ -11,10 +11,9 @@ namespace Rvandijk_UnitTest
         {
             // Arrange
             MockDal mockdal = new MockDal();
-
+            ReserveringLogic testRLogic = new ReserveringLogic(mockdal);
 
             // Act
-            ReserveringLogic testRLogic = new ReserveringLogic(mockdal);
             var TestResult = testRLogic.GetReserveringen();
 
             // Assert

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RvanDijkLogic.Interfaces
 {
-    public interface IReservering
+    public interface IReserveringDAL
     {
         IEnumerable<Reservering> GetReserveringen();
         void CreateReservering(string klantNaam, DateTime dateTime);

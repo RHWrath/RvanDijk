@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace RvanDijkLogic.Interfaces
 {
-    public interface Iinstructeur
+    public interface IActiviteitDAL
     {
-        IEnumerable<Instructeur> GetInstructeurs();
+        IEnumerable<Activiteit> GetActiviteit();
     }
 }

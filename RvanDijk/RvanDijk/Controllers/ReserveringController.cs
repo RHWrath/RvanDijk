@@ -22,7 +22,7 @@ namespace RvanDijk.Controllers
         }
         public ActionResult Index()
         {
-            IReservering NewIDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IReserveringDAL NewIDal = new ReserveringDAL(_configuration.GetConnectionString("ConnectionString")!);            
             ReserveringLogic reserveringLogic = new ReserveringLogic(NewIDal);
 
             List<VMReservering> VMReserveringen = new();
@@ -51,7 +51,7 @@ namespace RvanDijk.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            IKlant NewIDal = new KlantSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IKlantDAL NewIDal = new KlantDAL(_configuration.GetConnectionString("ConnectionString")!);
             KlantLogic klantLogic = new KlantLogic(NewIDal);
             List<string> KlantLijst = new List<string>();
 
@@ -70,7 +70,7 @@ namespace RvanDijk.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(VMReservering reservering)
         {
-            IReservering NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IReserveringDAL NewDal = new ReserveringDAL(_configuration.GetConnectionString("ConnectionString")!);
             ReserveringLogic reserveringLogic = new ReserveringLogic(NewDal);
             reserveringLogic.CreateReservering(reservering.KlantNaam, reservering.Tijd_Datum);
             return RedirectToAction("Index");
@@ -88,7 +88,7 @@ namespace RvanDijk.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
         {            
-                IReservering NewDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+                IReserveringDAL NewDal = new ReserveringDAL(_configuration.GetConnectionString("ConnectionString")!);
                 ReserveringLogic reserveringLogic = new ReserveringLogic(NewDal);
                 reserveringLogic.DeleteReservering(id);
                 return RedirectToAction("Index");           
@@ -96,7 +96,7 @@ namespace RvanDijk.Controllers
 
         public ActionResult CounterPage()
         {
-            IReservering NewIDal = new ReserveringSSMS(_configuration.GetConnectionString("ConnectionString")!);
+            IReserveringDAL NewIDal = new ReserveringDAL(_configuration.GetConnectionString("ConnectionString")!);
             ReserveringLogic reserveringLogic = new ReserveringLogic(NewIDal);
             VMReservering VMreservering = new();
 

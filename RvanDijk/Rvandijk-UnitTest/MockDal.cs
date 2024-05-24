@@ -27,7 +27,14 @@ namespace Rvandijk_UnitTest
 
         public IEnumerable<Reservering> GetReserveringen()
         {
-            return new List<Reservering>() { new Reservering() { ReservationID = ID, KlantNaam = Name, Tijd_Datum = dateTime, ReserveringCount = 1 } };
+            return new List<Reservering>() { new Reservering() 
+            { 
+                ReservationID = ID, 
+                KlantNaam = Name, 
+                Tijd_Datum = dateTime, 
+                ReserveringCount = 1 
+            } 
+            };
         }
 
         public int ReserveringCounter()
