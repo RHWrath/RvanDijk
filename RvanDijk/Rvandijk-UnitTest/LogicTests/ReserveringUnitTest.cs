@@ -7,7 +7,7 @@ namespace Rvandijk_UnitTest
     public class ReserveringUnitTest
     {
         [TestMethod]
-        public void GetReserveringenTest()
+        public void GetReserveringenTestVoor1()
         {
             // Arrange
             MockDal mockdal = new MockDal();

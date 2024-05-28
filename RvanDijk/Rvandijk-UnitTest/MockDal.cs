@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Rvandijk_UnitTest
 {
-    public class MockDal : IReservering
+    public class MockDal : IReserveringDAL
     {
         public int ID = 1;
         public string Name = "Bert";
@@ -33,7 +33,7 @@ namespace Rvandijk_UnitTest
                 KlantNaam = Name, 
                 Tijd_Datum = dateTime, 
                 ReserveringCount = 1 
-            } 
+            }
             };
         }
 

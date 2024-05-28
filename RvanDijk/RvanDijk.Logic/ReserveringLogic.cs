@@ -10,9 +10,9 @@ namespace RvanDijkLogic
 {
     public class ReserveringLogic
     {
-        IReservering ReserveringDB { get; }
+        IReserveringDAL ReserveringDB { get; }
 
-        public ReserveringLogic(IReservering reservering)
+        public ReserveringLogic(IReserveringDAL reservering)
         {
             this.ReserveringDB = reservering;
         }

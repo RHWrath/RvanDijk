@@ -14,6 +14,7 @@ namespace RvanDijkDal
         ReserveringDAL : IReserveringDAL
     {
         string _DBcon;
+        SqlTransaction _transaction = null;
 
         public ReserveringDAL(string DBcon)
         {
@@ -48,15 +49,26 @@ namespace RvanDijkDal
         {            
             SqlConnection Con = new SqlConnection(_DBcon);
             Con.Open();
-            SqlCommand cmd = new SqlCommand("INSERT Reservation (Klant_ID, Tijd_Datum) VALUES ((SELECT ID FROM Klant WHERE Naam = @klantNaam), @dateTime)", Con);
-            cmd.Parameters.AddWithValue("klantNaam", klantNaam);
-            cmd.Parameters.AddWithValue("dateTime", dateTime);
-            cmd.ExecuteNonQuery();
+            SqlCommand cmd1 = new SqlCommand("INSERT Reservation (Klant_ID, Tijd_Datum) VALUES ((SELECT ID FROM Klant WHERE Naam = @klantNaam), @dateTime)", Con);
+            cmd1.Parameters.AddWithValue("klantNaam", klantNaam);
+            cmd1.Parameters.AddWithValue("dateTime", dateTime); 
 
-            cmd = new SqlCommand("UPDATE Klant SET Vergoeding = (SELECT Vergoeding From Klant WHERE Naam = @klantNaam) - 1 WHERE Naam = @klantNaam;", Con);
-            cmd.Parameters.AddWithValue("klantNaam", klantNaam);
-            cmd.ExecuteNonQuery();
-            Con.Close();
+            SqlCommand cmd2 = new SqlCommand("UPDATE Klant SET Vergoeding = (SELECT Vergoeding From Klant WHERE Naam = @klantNaam) - 1 WHERE Naam = @klantNaam;", Con);
+            cmd2.Parameters.AddWithValue("klantNaam", klantNaam);
+
+            _transaction = Con.BeginTransaction();
+            try
+            {
+                cmd1.ExecuteNonQuery();
+                cmd2.ExecuteNonQuery();
+                _transaction.Commit();
+            } catch (Exception ex)
+            {
+                _transaction.Rollback();
+            } finally
+            {
+                Con.Close();
+            }
         }
 
         public void DeleteReservering(int reserveringID)
