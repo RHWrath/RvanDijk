@@ -48,15 +48,19 @@ namespace RvanDijkDal
         public void CreateReservering(string klantNaam, DateTime dateTime)
         {            
             SqlConnection Con = new SqlConnection(_DBcon);
+            
             Con.Open();
+            _transaction = Con.BeginTransaction();
+
             SqlCommand cmd1 = new SqlCommand("INSERT Reservation (Klant_ID, Tijd_Datum) VALUES ((SELECT ID FROM Klant WHERE Naam = @klantNaam), @dateTime)", Con);
             cmd1.Parameters.AddWithValue("klantNaam", klantNaam);
-            cmd1.Parameters.AddWithValue("dateTime", dateTime); 
+            cmd1.Parameters.AddWithValue("dateTime", dateTime);
+            cmd1.Transaction = _transaction;
 
             SqlCommand cmd2 = new SqlCommand("UPDATE Klant SET Vergoeding = (SELECT Vergoeding From Klant WHERE Naam = @klantNaam) - 1 WHERE Naam = @klantNaam;", Con);
             cmd2.Parameters.AddWithValue("klantNaam", klantNaam);
-
-            _transaction = Con.BeginTransaction();
+            cmd2.Transaction = _transaction;
+            
             try
             {
                 cmd1.ExecuteNonQuery();

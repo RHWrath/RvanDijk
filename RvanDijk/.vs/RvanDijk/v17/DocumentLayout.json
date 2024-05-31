@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijkdal\\klantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|solutionrelative:rvandijkdal\\klantdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijkdal\\reserveringdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57642E78-2B16-46A6-A9E0-988A5C74BDC2}|RvanDijkDal\\RvanDijkDal.csproj|solutionrelative:rvandijkdal\\reserveringdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\views\\reservering\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\views\\reservering\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk\\views\\reservering\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\views\\reservering\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk-unittest\\logictests\\reserveringunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|solutionrelative:rvandijk-unittest\\logictests\\reserveringunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk-unittest\\mockdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|c:\\users\\rik heerholtz\\desktop\\fonty\u0027s\\s2\\individueel project\\rvandijk\\rvandijk\\rvandijk-unittest\\mockdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|solutionrelative:rvandijk-unittest\\mockdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CF9D09-AD00-49A5-92C4-225424FE99B9}|RvanDijk\\RvanDijkPresentation.csproj|solutionrelative:rvandijk\\controllers\\reserveringcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk-unittest\\daltests\\databaseunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621300B0-B482-4480-8A13-48723016AA0E}|Rvandijk-UnitTest\\Rvandijk-UnitTest.csproj|solutionrelative:rvandijk-unittest\\daltests\\databaseunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF2F3315-A9F6-4812-A6E7-AA63A4B0ED99}|RvanDijk.Logic\\RvanDijkLogic.csproj|solutionrelative:rvandijk.logic\\reserveringlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,77 +46,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KlantDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\KlantDAL.cs",
-              "RelativeDocumentMoniker": "RvanDijkDal\\KlantDAL.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\KlantDAL.cs",
-              "RelativeToolTip": "RvanDijkDal\\KlantDAL.cs",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Index.cshtml",
+              "RelativeDocumentMoniker": "RvanDijk\\Views\\Reservering\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Index.cshtml",
+              "RelativeToolTip": "RvanDijk\\Views\\Reservering\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T12:06:24.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RvanDijk\\Views\\Reservering\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Views\\Reservering\\Delete.cshtml",
+              "RelativeToolTip": "RvanDijk\\Views\\Reservering\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T11:03:26.292Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T12:10:43.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MockDal.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\MockDal.cs",
-              "RelativeDocumentMoniker": "Rvandijk-UnitTest\\MockDal.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\MockDal.cs",
-              "RelativeToolTip": "Rvandijk-UnitTest\\MockDal.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T10:03:49.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReserveringUnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
-              "RelativeDocumentMoniker": "Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
-              "RelativeToolTip": "Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T08:44:24.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReserveringController.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\ReserveringController.cs",
-              "RelativeDocumentMoniker": "RvanDijk\\Controllers\\ReserveringController.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\ReserveringController.cs",
-              "RelativeToolTip": "RvanDijk\\Controllers\\ReserveringController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAMwDYAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:56:37.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DatabaseUnitTests.cs",
-              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\DalTests\\DatabaseUnitTests.cs",
-              "RelativeDocumentMoniker": "Rvandijk-UnitTest\\DalTests\\DatabaseUnitTests.cs",
-              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\DalTests\\DatabaseUnitTests.cs",
-              "RelativeToolTip": "Rvandijk-UnitTest\\DalTests\\DatabaseUnitTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:47:07.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ReserveringLogic.cs",
               "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\ReserveringLogic.cs",
               "RelativeDocumentMoniker": "RvanDijk.Logic\\ReserveringLogic.cs",
               "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk.Logic\\ReserveringLogic.cs",
               "RelativeToolTip": "RvanDijk.Logic\\ReserveringLogic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:45:07.33Z"
+              "WhenOpened": "2024-05-31T12:05:38.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReserveringController.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\ReserveringController.cs",
+              "RelativeDocumentMoniker": "RvanDijk\\Controllers\\ReserveringController.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijk\\Controllers\\ReserveringController.cs",
+              "RelativeToolTip": "RvanDijk\\Controllers\\ReserveringController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAYwFgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T10:36:13.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MockDal.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\MockDal.cs",
+              "RelativeDocumentMoniker": "Rvandijk-UnitTest\\MockDal.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\MockDal.cs",
+              "RelativeToolTip": "Rvandijk-UnitTest\\MockDal.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T08:24:01.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReserveringUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
+              "RelativeDocumentMoniker": "Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
+              "RelativeToolTip": "Rvandijk-UnitTest\\LogicTests\\ReserveringUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T08:23:32.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReserveringDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\ReserveringDAL.cs",
+              "RelativeDocumentMoniker": "RvanDijkDal\\ReserveringDAL.cs",
+              "ToolTip": "C:\\Users\\Rik Heerholtz\\Desktop\\Fonty\u0027s\\S2\\Individueel project\\RvanDijk\\RvanDijk\\RvanDijkDal\\ReserveringDAL.cs",
+              "RelativeToolTip": "RvanDijkDal\\ReserveringDAL.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:35:17.117Z",
+              "EditorCaption": ""
             }
           ]
         }
